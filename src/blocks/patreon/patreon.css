@@ -1,0 +1,27 @@
+/* Patreon */
+
+.patreon {
+    box-shadow: 0 0 0 5px #3b3b3b;
+    line-height: 1;
+}
+
+.patreon__link {
+    display: block;
+    padding: 20px 40px;
+    padding-bottom: 25px;
+    padding-left: 65px;
+    background-color: #e85b46;
+    background-image: url(images/patreon.svg);
+    background-size: auto 30px;
+    background-position: 20px 13px;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .patreon__link {
+        padding-left: 90px;
+        background-position: 40px 13px;
+    }
+}

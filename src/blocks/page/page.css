@@ -13,9 +13,8 @@
     display: grid;
     grid-template-rows: min-content 1fr min-content;
     margin: 0;
+    max-width: 1274px;
     min-height: 100%;
-    background-color: #737373;
-    background-size: 50% auto;
     color: #3b3b3b;
     line-height: 1.5;
     font-family: 'Rubik', sans-serif;
@@ -24,8 +23,16 @@
 
 @media (min-width: 768px) {
     .page__body {
+        background-color: #737373;
         background-image: url(images/stripes@4x.jpg);
+        background-size: 50% auto;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr min-content;
+    }
+}
+
+@media (min-width: 1274px) {
+    .page__body {
+        background-size: 637px auto;
     }
 }
