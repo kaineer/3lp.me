@@ -1,0 +1,47 @@
+/* Player */
+
+.player__audio {
+    display: block;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.player__list {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.player__chapter {
+    margin: 0 0 8px 0;
+}
+
+.player__timecode {
+    margin-right: 7px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
+
+.player__button {
+    padding: 3px 7px;
+    margin-right: 7px;
+    border-style: none;
+    background: none;
+    background-color: #0094e8;
+    color: white;
+    border-radius: 28px;
+    line-height: 1;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
+
+.player__button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+.player__button:hover,
+.player__button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 148, 232, 0.25);
+}

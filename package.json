@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "deploy": "cd dest && rsync -az --delete --exclude=.DS_Store . 3lp.me:/var/www/3lp.me/html/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "browser-sync": "^2.18.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss-csso": "^3.0.0",
+    "postcss-import": "^12.0.1"
+  }
+}

@@ -1,0 +1,25 @@
+/* Episode */
+
+.episode {
+    padding: 20px 20px 1px 20px;
+    background-color: white;
+    box-shadow: 0 0 0 5px #3b3b3b;
+}
+
+@media (min-width: 768px) {
+    .episode {
+        padding: 40px 40px 20px 40px;
+    }
+}
+
+.episode__title {
+    margin: 0 0 24px 0;
+    line-height: 1.25;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.episode__player {
+    margin: 0 0 24px 0;
+}

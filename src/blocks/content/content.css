@@ -1,0 +1,39 @@
+/* Content */
+
+.content h3 {
+    margin: 0 0 10px 0;
+    line-height: 1.25;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+}
+
+.content p {
+    margin: 0 0 20px 0;
+}
+
+.content ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content li {
+    padding-left: 20px;
+}
+
+.content li::before {
+    position: absolute;
+    margin-left: -20px;
+    content: '—';
+}
+
+.content a {
+    text-decoration: none;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 148, 232, 0.25) 0.25em,
+        transparent 0
+    );
+    color: #0094e8;
+}

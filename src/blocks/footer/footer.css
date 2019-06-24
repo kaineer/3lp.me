@@ -1,0 +1,19 @@
+/* Footer */
+
+.footer {
+    padding: 20px;
+    box-shadow: 0 0 0 5px #3b3b3b;
+    background-color: white;
+    text-align: center;
+}
+
+.footer__copy {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        padding: 20px;
+        grid-column: 1 / 2;
+    }
+}

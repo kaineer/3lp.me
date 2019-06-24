@@ -1,0 +1,28 @@
+/* Main */
+
+@media (min-width: 768px) {
+    .main {
+        grid-row: 1 / -1;
+        grid-column: 2 / -1;
+        border-left: 5px solid #3b3b3b;
+    }
+}
+
+.main__intro {
+    padding: 20px 20px 1px 20px;
+    box-shadow: 0 0 0 5px #3b3b3b;
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    .main__intro {
+        padding: 40px 40px 20px 40px;
+    }
+}
+
+.main__title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
