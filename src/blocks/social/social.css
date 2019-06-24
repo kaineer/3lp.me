@@ -1,15 +1,15 @@
 /* Social */
 
 .social {
-    padding: 20px 40px;
-    display: flex;
+    padding: 20px;
+    display: grid;
+    grid-auto-flow: column;
     justify-items: center;
     box-shadow: 0 0 0 5px #3b3b3b;
     background-color: white;
 }
 
 .social__link {
-    margin-right: 30px;
     color: #0094e8;
 }
 
