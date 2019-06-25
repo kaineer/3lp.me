@@ -14,7 +14,8 @@ gulp.task('html', () => {
             removeComments: true,
             collapseWhitespace: true
         }))
-        .pipe(gulp.dest('dest'));
+        .pipe(gulp.dest('dest'))
+        .pipe(sync.stream());
 });
 
 // Styles
@@ -39,6 +40,7 @@ gulp.task('scripts', () => {
         }))
         .pipe(uglify())
         .pipe(gulp.dest('dest'))
+        .pipe(sync.stream());
 });
 
 // Copy
