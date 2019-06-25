@@ -12,11 +12,17 @@
 }
 
 .episode__title {
-    margin: -10px 0 25px 0;
+    margin: -5px 0 25px 0;
     line-height: 1.25;
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
     font-size: 32px;
+}
+
+@media (min-width: 768px) {
+    .episode__title {
+        margin-top: -10px;
+    }
 }
 
 .episode__player {
