@@ -24,7 +24,13 @@
 @media (min-width: 768px) {
     .page__body {
         background-color: #737373;
-        background-image: url(images/stripes@4x.jpg);
+        background-image:
+            linear-gradient(
+                to right,
+                #3b3b3b 5px,
+                transparent 5px
+            ),
+            url(images/stripes@4x.jpg);
         background-size: 50% auto;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr min-content;
