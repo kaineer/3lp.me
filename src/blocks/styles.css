@@ -1,6 +1,7 @@
 /* Screen */
 
 @import 'page/page.css';
+@import 'box/box.css';
 @import 'header/header.css';
 @import 'social/social.css';
 @import 'patreon/patreon.css';

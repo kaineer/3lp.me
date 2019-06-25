@@ -1,15 +1,15 @@
 /* Social */
 
 .social {
-    padding: 20px;
     display: grid;
     grid-auto-flow: column;
-    justify-items: center;
-    box-shadow: 0 0 0 5px #3b3b3b;
+    justify-content: space-between;
     background-color: white;
 }
 
 .social__link {
+    display: block;
+    height: 32px;
     color: #0094e8;
 }
 
@@ -19,5 +19,6 @@
 }
 
 .social__icon {
+    height: 32px;
     fill: currentColor;
 }
