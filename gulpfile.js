@@ -83,7 +83,7 @@ gulp.task('watch:html', () => {
 
 gulp.task('watch:styles', () => {
     return gulp.watch(
-        'src/blocks/*/*.css', gulp.series('styles')
+        'src/blocks/**/*.css', gulp.series('styles')
     );
 });
 
