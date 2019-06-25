@@ -10,12 +10,16 @@
 .social__link {
     display: block;
     height: 32px;
+}
+
+.social__link:link,
+.social__link:visited {
     color: #0094e8;
 }
 
 .social__link:hover,
 .social__link:focus {
-    color: black;
+    color: #3b3b3b;
 }
 
 .social__icon {
