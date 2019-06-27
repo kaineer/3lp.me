@@ -4,12 +4,12 @@
     display: grid;
     grid-auto-flow: column;
     justify-content: space-between;
+    align-items: center;
     background-color: white;
 }
 
 .social__link {
     display: block;
-    height: 32px;
 }
 
 .social__link:link,
@@ -23,6 +23,5 @@
 }
 
 .social__icon {
-    height: 32px;
     fill: currentColor;
 }
