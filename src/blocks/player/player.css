@@ -6,6 +6,11 @@
     border-radius: 100px;
 }
 
+.player__audio:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #bfe4f9;
+}
+
 .player__list {
     margin: 0 0 20px 0;
     padding: 0;
@@ -43,5 +48,5 @@
 .player__button:hover,
 .player__button:focus {
     outline: none;
-    box-shadow: 0 0 0 4px rgba(0, 148, 232, 0.25);
+    box-shadow: 0 0 0 4px #bfe4f9;
 }
