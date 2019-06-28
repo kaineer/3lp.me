@@ -8,7 +8,9 @@
 
 .player__audio:focus {
     outline: none;
-    box-shadow: 0 0 0 4px #bfe4f9;
+    box-shadow:
+        0 0 0 4px white,
+        0 0 0 8px #bfe4f9;
 }
 
 .player__list {
@@ -48,5 +50,7 @@
 .player__button:hover,
 .player__button:focus {
     outline: none;
-    box-shadow: 0 0 0 4px #bfe4f9;
+    box-shadow:
+        0 0 0 4px white,
+        0 0 0 8px #bfe4f9;
 }
