@@ -12,6 +12,26 @@
     text-decoration: none;
 }
 
+.patreon__link:focus {
+    outline: none;
+}
+
+.patreon__link::after {
+    position: absolute;
+    opacity: 0;
+    margin-left: 15px;
+    content:
+        ' ' url(images/coin.gif)
+        ' ' url(images/coin.gif)
+        ' ' url(images/coin.gif);
+}
+
+.patreon__link:hover::after,
+.patreon__link:focus::after {
+    outline: none;
+    opacity: 1;
+}
+
 @media (min-width: 768px) {
     .patreon__link {
         padding-left: 90px;
