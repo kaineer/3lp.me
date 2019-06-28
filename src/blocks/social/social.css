@@ -14,12 +14,13 @@
 
 .social__link:link,
 .social__link:visited {
-    color: #0094e8;
+    color: #3b3b3b;
 }
 
 .social__link:hover,
 .social__link:focus {
-    color: #3b3b3b;
+    outline: none;
+    color: #0094e8;
 }
 
 .social__icon {
