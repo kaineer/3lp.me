@@ -1,23 +1,20 @@
 (function () {
-    var players = document.querySelectorAll('.player');
+    const players = document.querySelectorAll('.player');
 
-    var getSeconds = timing => {
-        var parsed = timing.split(':').reverse();
-        var [sec, min, hour] = parsed.map(Number);
+    const getSeconds = timing => {
+        const parsed = timing.split(':');
+        const [hour, min, sec] = parsed.map(Number);
 
-        sec += min * 60;
-        sec += hour * 60;
-
-        return sec;
+        return ((hour * 60) + min) * 60 + sec;
     };
 
     [...players].forEach(player => {
-        var audio = player.querySelector('.player__audio');
-        var timecodes = player.querySelectorAll('.player__timecode');
+        const audio = player.querySelector('.player__audio');
+        const timecodes = player.querySelectorAll('.player__timecode');
 
         [...timecodes].forEach(timecode => {
-            var codes = timecode.innerText;
-            var seconds = getSeconds(timecode.innerText);
+            const codes = timecode.innerText;
+            const seconds = getSeconds(timecode.innerText);
 
             var button = document.createElement('button');
             button.type = 'button';
